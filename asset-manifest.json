@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HealthcareAccessWebsite/static/css/main.bd26100f.css",
+    "main.js": "/HealthcareAccessWebsite/static/js/main.eafe9ee6.js",
+    "static/js/453.106add2f.chunk.js": "/HealthcareAccessWebsite/static/js/453.106add2f.chunk.js",
+    "index.html": "/HealthcareAccessWebsite/index.html",
+    "main.bd26100f.css.map": "/HealthcareAccessWebsite/static/css/main.bd26100f.css.map",
+    "main.eafe9ee6.js.map": "/HealthcareAccessWebsite/static/js/main.eafe9ee6.js.map",
+    "453.106add2f.chunk.js.map": "/HealthcareAccessWebsite/static/js/453.106add2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd26100f.css",
+    "static/js/main.eafe9ee6.js"
+  ]
+}
