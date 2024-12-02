@@ -12,6 +12,7 @@ const NeuralNet: React.FC = () => {
   return (
     <div>
       <h1>Methods, Neural Networks, and more</h1>
+      <p>After deep analysis of different model types, including scalar vector machines,  </p>
       <p>
         The neural network I'm using is called a{' '}
         <em> Multi-Layer Perceptron (MLP) </em>. The MLP is a type of model that

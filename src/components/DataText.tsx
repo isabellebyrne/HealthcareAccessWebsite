@@ -7,7 +7,7 @@ const DataText: React.FC = () => {
             <h1>Data</h1>
             <p>For this project, I used a dataset from the <a href="https://www.cdc.gov/brfss/data_documentation/index.htm">CDC Behavioral Risk Factor Surveillance System</a> (BRFSS) that contains information on the health and healthcare of the U.S. population. The dataset contains information on a variety of topics, including health status, healthcare access, and healthcare affordability. For this project, I focused on the percentage of people who needed to see a doctor but couldn't because they couldn't afford it in the past year, and the percentage of people who reported a household income of less than $50,000 that year. </p>
             <h3>Data Correlation Map</h3>
-            <img src="/images/Maps/DataCorrelationMap.png" alt="Data Correlation Map" style={{ maxWidth: '100%', maxHeight: '80%'}}/>
+            <img src="/HealthcareAccessWebsite/Maps/DataCorrelationMap.png" alt="Data Correlation Map" style={{ maxWidth: '100%', maxHeight: '80%'}}/>
             <p>
                 This map shows the correlation between the different features in the dataset. The darker the color, the weaker the correlation between the two features. The correlation map helps us understand how the different features in the dataset are related to each other, and can help us identify which features are most important for predicting the percentage of people who cannot afford healthcare in the United States. 
             </p>

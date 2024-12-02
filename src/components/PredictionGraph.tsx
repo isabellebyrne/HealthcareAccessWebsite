@@ -16,7 +16,7 @@ const states = [
 
 // Update the image paths to point to the public directory
 const stateImages = states.map(
-  (state) => `/images/PredictionGraphs/${state.replace(" ", "_")}_MLP.png`
+  (state) => `/HealthcareAccessWebsite/PredictionGraphs/${state.replace(" ", "_")}_MLP.png`
 );
 
 const PredictionGraph: React.FC = () => {
