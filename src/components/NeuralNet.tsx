@@ -49,7 +49,7 @@ const NeuralNet: React.FC = () => {
       </p>
       <p>
         For example, you can adjust the number of <em>layers</em>, the number of{' '}
-        <em>nodes</em> in each layer, and how fast the model learns wih
+        <em>nodes</em> in each layer, and how fast the model learns with
         different hyperparameters like <em>learning rate</em>,{' '}
         <em>batch size</em>, and <em>regularization parameters</em>. These
         settings can affect how well the model learns and how accurate the
@@ -59,7 +59,7 @@ const NeuralNet: React.FC = () => {
 
       <CodeBlock
         code={`model = MLPRegressor( 
-    hidden_layer_sizes=(64, 32),      # Larger input layer, tapered structure
+    hidden_layer_sizes=(64, 32),      # (3, 64, 32, 1) Tapered structure
     activation='relu',                # Better suited for numeric, scaled data
     solver='adam',                    # Efficient for large datasets
     max_iter=1000,                    # Increased iterations for convergence
