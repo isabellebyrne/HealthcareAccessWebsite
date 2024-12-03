@@ -16,8 +16,8 @@ def preprocess_data(filepath):
             data[column] = data[column].apply(lambda x: ast.literal_eval(
                 x) if isinstance(x, str) and x.startswith('[') else np.nan)
 
-    exploded_data = data.explode('Fake_Data_Doctor')
-    exploded_data['Fake_Data_Doctor'] = exploded_data['Fake_Data_Doctor'].astype(
+    exploded_data = data.explode('Bootstrapped_Data_Doctor')
+    exploded_data['Bootstrapped_Data_Doctor'] = exploded_data['Bootstrapped_Data_Doctor'].astype(
         float)
 
     exploded_data['Year'] = exploded_data['Year'].astype(float)
@@ -109,7 +109,7 @@ def predict_and_plot(filepath, future_years, confidence_level=0.95):
 
         # Plot results
         plt.figure(figsize=(12, 8))
-        plt.scatter(state_data['Year'], state_data['Fake_Data_Doctor'],
+        plt.scatter(state_data['Year'], state_data['Bootstrapped_Data_Doctor'],
                     label=f'{state} Data', alpha=0.7)
         plt.plot(future_years_array.flatten(), predictions,
                  label=f'{state} Prediction', color='orange')
