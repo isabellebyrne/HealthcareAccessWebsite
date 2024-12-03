@@ -7,7 +7,7 @@ const years = Array.from({ length: 2024 - 2014 }, (_, i) => (2014 + i).toString(
 
 // Update the image paths to point to the public directory
 const stateImages = years.map(
-  (state) => `/images/Maps/Map${state}.png`
+  (state) => `HealthcareAccessWebsite/images/Maps/Map${state}.png`
 );
 
 const Maps: React.FC = () => {

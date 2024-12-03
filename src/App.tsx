@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Navbar />
       <div style={{ padding: "20px" }}>
         <Routes>
-          <Route path="/HealthcareAccessWebsite/" element={<About />} />
+          <Route path="/HealthcareAccessWebsite" element={<About />} />
           <Route path="/about" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

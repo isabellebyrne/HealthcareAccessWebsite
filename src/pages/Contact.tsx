@@ -30,6 +30,8 @@ const Contact: React.FC = () => {
         <Tab label="Review 8" />
         <Tab label="Review 9" />
         <Tab label="Review 10" />
+        <Tab label="Review 11" />
+        <Tab label="Review 12" />
       </Tabs>
       </Box>
 
@@ -154,9 +156,9 @@ const Contact: React.FC = () => {
         discuss="This book aligns with my thesis by addressing how data standardization and accessibility can improve healthcare systems. Its discussion on leveraging EHRs and reducing fragmentation directly supports the argument for digitizing medical records and using data-driven strategies to enhance the accessibility of technologies like robotic prosthetics."
       />
       )}
-      {selectedTab === 10 && (
+      {selectedTab === 11 && (
       <LitReviewTemp
-        number={11}
+        number={12}
         source="Kaiser Family Foundation (KFF)"
         citation={<a href="https://www.kff.org/health-costs/issue-brief/americans-challenges-with-health-care-costs/" target="_blank" rel="noopener noreferrer">Lopes, Lunna, et al. "Americans’ Challenges with Health Care Costs." KFF, 1 Mar. 2024, https://www.kff.org/health-costs/issue-brief/americans-challenges-with-health-care-costs/.</a>}
         summarize="This brief examines how healthcare costs in the U.S. burden families, influencing decisions about insurance, care, and finances. The authors highlight that nearly half of U.S. adults struggle with healthcare affordability, with uninsured and low-income populations disproportionately affected (Lopes et al.). The report also discusses how costs lead many to delay or forgo necessary care, emphasizing the systemic inequities in healthcare access."

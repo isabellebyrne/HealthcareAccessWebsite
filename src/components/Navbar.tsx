@@ -5,9 +5,9 @@ import Grid from '@mui/material/Grid';
 
 const Navbar: React.FC = () => {
   const tabs = [
-    { title: 'Home', link: '/' },
+    { title: 'Home', link: '/HealthcareAccessWebsite' },
     { title: 'Results', link: '/about' },
-    { title: 'Sources', link: '/contact' },
+    { title: 'Lit Review', link: '/contact' },
   ];
 
   return (
